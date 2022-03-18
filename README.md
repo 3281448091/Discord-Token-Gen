@@ -1,3 +1,8 @@
+# WORKS 3/18
+
+JOIN OUR DISCORD SERVER:
+https://discord.gg/79auywusZf
+
 # Discord-Token-Gen
 An auto discord token generator. Auto verifies phone number but not email. Still working on it.
 
