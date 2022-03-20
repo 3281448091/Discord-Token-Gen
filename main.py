@@ -3,6 +3,8 @@ TODO
 1. auto reg
 2. cloud nitro sniping
 """
+import random
+
 import requests
 import httpx
 from colorama import Fore
@@ -28,6 +30,30 @@ banner =f"""{Fore.BLUE}
 class Settings:
     capmonster = ""
     onlinesimru = ""
+    # random select proxy
+    proxy = open("proxies.txt","r").read().split("\n")
+
+    def get_proxy(self):
+        proxies = {
+    "https":"http://"+random.choice(self.proxy),
+    "http":"http://"+random.choice(self.proxy)
+            }
+        return proxies
+    # random select proxy
+    proxy = open("proxies.txt","r").read().split("\n")
+
+    def get_proxy(self):
+        if open("proxies.txt","r").read() == '':
+                proxies = {
+                    "https":"http://127.0.0.1",
+                    "http":"http://127.0.0.1"
+                }
+        else:
+            proxies = {
+        "https":"http://"+random.choice(self.proxy),
+        "http":"http://"+random.choice(self.proxy)
+                }
+            return proxies
 
 class Main:
     def __init__(self):
@@ -41,6 +67,8 @@ class Main:
 
         # introduces the banner
         # print(banner) i dont we need banner
+
+        self.Settings = Settings()
 
         self.reg()
 
@@ -122,7 +150,7 @@ class Main:
             "gift_code_sku_id":"null",
             "invite": "null",
             "consent": "true",
-            "captcha_key":  self.Solver.get_captcha_key(False) # bypass("4c672d35-0701-42b2-88c3-78380b0db560","discord.com",proxy="cgdqhgqb:4clzc4c3x69d@209.127.191.180:9279")
+            "captcha_key":  self.Solver.get_captcha_key(False)
         }
 
         headers = {
@@ -146,7 +174,7 @@ class Main:
             "x-super-properties": "eyJvcyI6Ik1hYyBPUyBYIiwiYnJvd3NlciI6IkNocm9tZSIsImRldmljZSI6IiIsInN5c3RlbV9sb2NhbGUiOiJ6aC1DTiIsImJyb3dzZXJfdXNlcl9hZ2VudCI6Ik1vemlsbGEvNS4wIChNYWNpbnRvc2g7IEludGVsIE1hYyBPUyBYIDEwXzE1XzcpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS85OS4wLjQ4NDQuNzQgU2FmYXJpLzUzNy4zNiIsImJyb3dzZXJfdmVyc2lvbiI6Ijk5LjAuNDg0NC43NCIsIm9zX3ZlcnNpb24iOiIxMC4xNS43IiwicmVmZXJyZXIiOiIiLCJyZWZlcnJpbmdfZG9tYWluIjoiIiwicmVmZXJyZXJfY3VycmVudCI6IiIsInJlZmVycmluZ19kb21haW5fY3VycmVudCI6IiIsInJlbGVhc2VfY2hhbm5lbCI6InN0YWJsZSIsImNsaWVudF9idWlsZF9udW1iZXIiOjExOTc2MSwiY2xpZW50X2V2ZW50X3NvdXJjZSI6bnVsbH0=",
         }
 
-        resp = requests.post("https://discord.com/api/v9/auth/register",json=param,headers=headers)
+        resp = requests.post("https://discord.com/api/v9/auth/register",json=param,headers=headers,proxies=self.Settings.get_proxy())
 
         token = None
 
@@ -158,6 +186,7 @@ class Main:
 
         self.Logger.info(__name__, "Got token = " + str(token))
 
+        self.Logger.info(__name__, "Verifing without proxy")
         core.PhoneNumberVerifier.Verify(Settings.onlinesimru,Settings.capmonster,token,password).verify_phone_number()
 
         self.Logger.info(__name__,"finished verifying token phone number")
