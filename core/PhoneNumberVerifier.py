@@ -33,6 +33,8 @@ class Verify:
         # phone number
         number = result.get("number")
 
+        # TODO BAN DETECTOR post without catpcha
+
         self.Logger.info(__name__, "using "+number)
 
         tzid = result.get("tzid")
@@ -72,14 +74,21 @@ class Verify:
         self.Logger.info(__name__, "requested phone number verify")
 
 
+        uncaught_sms_times = 0
 
         while True:
+            if uncaught_sms_times >= 45:
+                self.Logger.warn(__name__,"PHONE NUMBER BANNED")
+                self.verify_phone_number()
+                break
             with requests.get(f"https://onlinesim.ru/api/getState.php?apikey={self.ptoken}&tzid={tzid}") as response:
                 if response.json()[0].get("msg") != None:
                     code = response.json()[0].get("msg")
                     break
                 else:
                     time.sleep(1)
+                    uncaught_sms_times = uncaught_sms_times+1
+
         self.Logger.info(__name__, "got sms")
         json = {
             "code" : code,
@@ -143,7 +152,6 @@ class Verify:
 
         self.Logger.info(__name__, "complete")
 
-# OTU0MTA1OTkxMTI4MDUxNzEy.YjOUYQ.l7uHs33Osov8cSDL-ikY2R0m7S8
 
 
 
