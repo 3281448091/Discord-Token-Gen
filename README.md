@@ -1,8 +1,8 @@
 # WORKS 3/23
 
-50 STARS = FULL VERIFY + BYPASS
+25 STARS = FULL VERIFY + BYPASS
 
-100 STARS = TOKEN JOINER + FREE PHONE VERIFICATION AND CAPTCHA
+50 STARS = TOKEN JOINER + FREE PHONE VERIFICATION AND CAPTCHA
 
 # Discord-Token-Gen
 An auto discord token generator. Auto verifies phone number but not email. Still working on it.
