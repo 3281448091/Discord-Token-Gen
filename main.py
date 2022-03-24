@@ -83,7 +83,7 @@ class Main:
 
         self.Logger.info(__name__,"password is "+password)
 
-        # Getting cookies
+        # Reciving cookies
 
         header1 = {
             "Host": "discord.com",
