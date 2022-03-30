@@ -4,6 +4,9 @@
 
 50 STARS = TOKEN JOINER + FREE PHONE VERIFICATION AND CAPTCHA
 
+FREE HCAPTCHA SOLVING API
+<img src="https://github.com/LanLan69/Discord-Token-Gen/blob/master/%E6%88%AA%E5%B1%8F2022-03-29%2021.37.20.png"/>
+
 # Discord-Token-Gen
 An auto discord token generator. Auto verifies phone number but not email. Still working on it.
 
