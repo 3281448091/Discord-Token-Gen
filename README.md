@@ -1,8 +1,4 @@
-# WORKS 3/23
-
-25 STARS = FULL VERIFY + UNLOCKED TOKEN GEN
-
-50 STARS = TOKEN JOINER + FREE PHONE VERIFICATION AND CAPTCHA
+# I am very busy for now, and I am trying to update. Bypassing discord is hard, and it takes time.
 
 FREE HCAPTCHA SOLVING API
 <img src="https://github.com/LanLan69/Discord-Token-Gen/blob/master/%E6%88%AA%E5%B1%8F2022-03-29%2021.37.20.png"/>
