@@ -43,7 +43,10 @@ class Solver:
                  if "processing" in response.text:
                      pass
                  else:
-                    return response.json()["solution"]["gRecaptchaResponse"]
+                    try:
+                        return response.json()["solution"]["gRecaptchaResponse"]
+                    except Exception:
+                        print("YOU NEED https://capmonster.cloud api key and with CREDIT INSIDE, YOU NEED TO PAY!")
                     break
 
 
