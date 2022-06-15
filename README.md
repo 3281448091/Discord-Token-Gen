@@ -30,7 +30,7 @@ python3 main.py
 __**EZ PROFIT 2k$ / day**__
 
 # CONTACT / Help 
-Discord : Senior#6969
+Discord : LanLan#6103
 
 # DISCLAIMER
 Educational Uses only
