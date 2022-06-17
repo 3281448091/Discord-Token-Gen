@@ -1,5 +1,8 @@
 # JOIN DISCORD SERVER [https://discord.gg/uAc3agBY](https://discord.gg/79auywusZf)
 
+100 stars release premium unlocked token gen
+150 release ai hcaptcha solver
+
 FREE HCAPTCHA SOLVING API
 <img src="https://github.com/LanLan69/Discord-Token-Gen/blob/master/%E6%88%AA%E5%B1%8F2022-03-29%2021.37.20.png"/>
 
