@@ -1,3 +1,5 @@
+# JOIN DISCORD SERVER [https://discord.gg/WwCxHSTNzR](https://discord.gg/SVYbNpd4ka) PREVIOUS got termed
+
 100 stars release premium unlocked token gen<br>
 150 release ai hcaptcha solver
 
