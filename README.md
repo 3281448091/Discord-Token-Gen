@@ -1,4 +1,4 @@
-# JOIN DISCORD SERVER [https://discord.gg/WwCxHSTNzR](https://discord.gg/WwCxHSTNzR) PREVIOUS got termed
+# JOIN DISCORD SERVER [https://discord.gg/WwCxHSTNzR](https://discord.gg/SVYbNpd4ka) PREVIOUS got termed
 
 100 stars release premium unlocked token gen<br>
 150 release ai hcaptcha solver
@@ -30,7 +30,7 @@ python3 main.py
 __**EZ PROFIT 2k$ / day**__
 
 # CONTACT / Help 
-Discord : LanLan#4042
+Discord : LanLan#0001
 
 # DISCLAIMER
 Educational Uses only
