@@ -33,12 +33,13 @@ class Settings:
     # random select proxy
     proxy = open("proxies.txt","r").read().split("\n")
 
-    def get_proxy(self):
-        proxies = {
-    "https":"http://"+random.choice(self.proxy),
-    "http":"http://"+random.choice(self.proxy)
-            }
-        return proxies
+    #def get_proxy(self):
+    #    proxies = {
+    #"https":"http://"+random.choice(self.proxy),
+    #"http":"http://"+random.choice(self.proxy)
+    #        }
+    #    return proxies
+
     # random select proxy
     proxy = open("proxies.txt","r").read().split("\n")
 
@@ -76,12 +77,12 @@ class Main:
 
         email = self.Faker._get_fake_email()+"@gmail.com"
 
-        self.Logger.info(__name__, email)
+        self.Logger.content(__name__,"Email: ", email)
 
         # the password that is going to be needed in the final phone number verifiy
         password = secrets.token_hex(10)
 
-        self.Logger.info(__name__,"password is "+password)
+        self.Logger.content(__name__,"Password: ", password)
 
         # Reciving cookies
 
@@ -184,10 +185,15 @@ class Main:
             self.Logger.error(__name__,"Cannot fetch token - "+resp.text)
             sys.exit(0)
 
-        self.Logger.info(__name__, "Got token = " + str(token))
+        self.Logger.content(__name__, "Discord token: ", str(token))
 
-        self.Logger.info(__name__, "Verifing without proxy")
-        core.PhoneNumberVerifier.Verify(Settings.onlinesimru,Settings.capmonster,token,password).verify_phone_number()
+        #self.Logger.info(__name__, "Verifing without proxy")
+        core.PhoneNumberVerifier.Verify(
+            ptoken           = Settings.onlinesimru,
+            stoken           = Settings.capmonster,
+            discord_token    = token,
+            discord_password = password
+            ).verify_phone_number()
 
         self.Logger.info(__name__,"finished verifying token phone number")
 
