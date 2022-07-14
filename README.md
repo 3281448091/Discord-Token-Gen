@@ -1,7 +1,8 @@
-# JOIN DISCORD SERVER [https://discord.gg/WwCxHSTNzR](https://discord.gg/SVYbNpd4ka) PREVIOUS got termed
+<p align="center">
+    <b>JOIN DISCORD SERVER https://discord.gg/SVYbNpd4ka PREVIOUS got termed</b>
 
-110 stars release premium unlocked token gen<br>
-125 release ai hcaptcha solver
+- [] 110 stars release premium unlocked token gen<br>
+- [] 125 release ai hcaptcha solver
 
 # Discord-Token-Gen
 An auto discord token generator. Auto verifies phone number but not email. Still working on it.
@@ -33,4 +34,4 @@ __**EZ PROFIT 2k$ / day**__
 Discord : LanLan#0001
 
 # DISCLAIMER
-Educational Uses only
+This github repo is for **EDUCATIONAL PURPOSES ONLY. I AM NOT RESPONSIBLE FOR WHAT YOU DO WITH THIS REPO.**
