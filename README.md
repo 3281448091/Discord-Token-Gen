@@ -1,6 +1,6 @@
 <p align="center">
     <b>JOIN DISCORD SERVER https://discord.gg/SVYbNpd4ka PREVIOUS got termed</b>
-
+</p>
 - [] 110 stars release premium unlocked token gen<br>
 - [] 125 release ai hcaptcha solver
 
