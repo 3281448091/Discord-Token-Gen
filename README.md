@@ -1,8 +1,11 @@
 <h1 align="center">
     <b>JOIN DISCORD SERVER https://discord.gg/SVYbNpd4ka PREVIOUS got termed</b>
 </h1>
+
+<p align="center">
 - 115 stars release premium unlocked token gen<br>
 - 130 release ai hcaptcha solver
+</p>
 
 # Discord-Token-Gen
 An auto discord token generator. Auto verifies phone number but not email. Still working on it.
