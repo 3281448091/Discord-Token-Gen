@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-- 130 stars release premium unlocked token gen<br>
+- 140 stars release premium unlocked token gen<br>
 - 150 release ai hcaptcha solver
 </p>
 
