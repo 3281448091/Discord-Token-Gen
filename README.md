@@ -3,8 +3,8 @@
 </h1>
 
 <p align="center">
-- 150 stars release premium unlocked token gen<br>
-- 160 release ai hcaptcha solver
+- 170 stars release premium unlocked token gen<br>
+- 180 release ai hcaptcha solver
 </p>
 
 # Discord-Token-Gen
