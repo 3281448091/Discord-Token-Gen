@@ -1,10 +1,10 @@
 <h1 align="center">
-    <b>JOIN DISCORD SERVER https://discord.gg/4aK6QXkFJ6 PREVIOUS got termed</b>
+    <b>JOIN DISCORD SERVER https://discord.gg/boost69 PREVIOUS got termed</b>
 </h1>
 
 <p align="center">
-- 200 stars release paid private premium unlocked token gen<br>
-- 210 release the only working undetected ai hcaptcha solver
+- 215 stars release paid private premium unlocked token gen<br>
+- 220 release the only working undetected ai hcaptcha solver
 </p>
 
 # Discord-Token-Gen
