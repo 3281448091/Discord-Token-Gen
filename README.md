@@ -1,5 +1,5 @@
 <h1 align="center">
-    <b>JOIN DISCORD SERVER https://discord.gg/KnxmY2PAeQ PREVIOUS got termed</b>
+    <b>NEW DISCORD SERVER https://discord.gg/KnxmY2PAeQ JOIN JOIN JOIN</b>
 </h1>
 
 <p align="center">
