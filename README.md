@@ -1,5 +1,5 @@
 <h1 align="center">
-    <b>NEW DISCORD SERVER https://discord.gg/KnxmY2PAeQ JOIN JOIN JOIN</b>
+    <b>NEW NEW 11/24 DISCORD SERVER https://discord.gg/RTBPyfsfye JOIN JOIN JOIN</b>
 </h1>
 
 <p align="center">
