@@ -1,8 +1,3 @@
-<p align="center">
-- 275 stars release paid private premium unlocked token gen<br>
-- 300 release the only working undetected ai hcaptcha solver
-</p>
-
 # Discord-Token-Gen
 An auto discord token generator. Auto verifies phone number but not email. Still working on it.
 
@@ -26,8 +21,6 @@ class Settings:
 ```bash
 python3 main.py
 ```
-
-__**EZ PROFIT 2k$ / day**__
 
 # CONTACT / Help 
 Discord : LanLan#0001
