@@ -1,7 +1,3 @@
-<h1 align="center">
-    <b>NEW NEW 11/24 DISCORD SERVER https://discord.gg/RTBPyfsfye JOIN JOIN JOIN</b>
-</h1>
-
 <p align="center">
 - 275 stars release paid private premium unlocked token gen<br>
 - 300 release the only working undetected ai hcaptcha solver
