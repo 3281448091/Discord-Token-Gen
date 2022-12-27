@@ -26,4 +26,4 @@ python3 main.py
 Discord : LanLan#0001
 
 # DISCLAIMER
-This github repo is for **EDUCATIONAL PURPOSES ONLY. I AM NOT RESPONSIBLE FOR WHAT YOU DO WITH THIS REPO.**
+This github repo is for **EDUCATIONAL PURPOSES ONLY.**
