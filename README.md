@@ -1,4 +1,4 @@
-# Discord-Token-Gen
+# Discord-Token-Gen JOIN https://discord.gg/DR2XzkTZaZ
 An auto discord token generator. Auto verifies phone number but not email. Still working on it.
 
 <img src="https://github.com/LanLan69/Discord-Token-Gen/blob/master/%E6%88%AA%E5%B1%8F2022-03-17%2016.28.47.png"/>
